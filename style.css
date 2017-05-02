@@ -1,0 +1,126 @@
+/*Globally sets the cursor */
+* {
+
+    cursor: url('crosshair.svg'), default;
+}
+
+ body {
+     font-family: 'Raleway', sans-serif;
+     background-color: #ecf0f1;
+
+     /*Centers everything*/
+     text-align: center;
+
+ }
+
+
+ hr {
+
+   border: 3px solid #03A9F4;
+
+ }
+
+ #hint {
+
+   letter-spacing: 1px;
+   color: #9C27B0;
+
+ }
+
+ #rtime {
+
+   color: #3F51B5;
+   letter-spacing: 1px;
+
+ }
+
+ #counter {
+
+   color: #FF5722;
+   letter-spacing: 1px;
+
+ }
+
+#question {
+
+  color: #000000;
+  letter-spacing: 1px;
+
+}
+
+ #circle {
+	 background-color: red;
+	 height: 50px;
+	 width: 50px;
+	 border-radius: 50px;
+ }
+
+
+ #box {
+	 height:0px;
+	 width: 0px;
+ }
+
+
+
+h1 {
+
+    color: #03A9F4;
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    letter-spacing: 5px;
+
+}
+
+
+
+.bnt {
+
+  padding: 10px 19px;
+  font-size: 17px;
+  line-height: 1.471;
+  border-radius: 6px;
+  border: none;
+  width: 15%
+
+}
+
+
+.bnt:hover {
+
+  transition: 0.5;
+  opacity: 0.8;
+
+}
+
+.start {
+      color: #ffffff;
+      background-color: #1abc9c;
+
+}
+
+
+
+.stop {
+
+    color: #ffffff;
+    background-color: #e74c3c;
+
+}
+
+
+.refresh {
+
+    color: #ffffff;
+    background-color: #f1c40f;
+
+
+}
+
+p {
+
+  text-align: center;
+  font-weight: 500;
+
+}

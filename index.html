@@ -1,0 +1,42 @@
+<!doctype html>
+<html dir="ltr" lang="en">
+
+  <head>
+
+	  <title>SHOOT : THE : ANGRYBIRDS</title>
+
+	  <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+
+      <link rel="stylesheet" type="text/css" href="style.css">
+
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600|Raleway:400,500,700" rel="stylesheet">
+
+    </head>
+
+  <body>
+
+      <h1>SHOOT : THE : ANGRYBIRDS</h1>
+
+      <p id="hint">HINTS: SOMETIMES YOU MAY NEED TO SCROLL / SHAPES WILL COME VERY QUICKLY</p>
+
+	    <p id="rtime">YOUR REACTION TIME: <span id="time"></span></p>
+
+	    <p id="counter">KILLED:</p>
+
+      <p id="question">Test yourself, how many birds can you kill within your own time limit? </p>
+
+      <p id="yourTime">Timer (seconds): 0</p>
+
+      <button class="bnt start" onclick="start()">Start time</button>
+      <button class="bnt stop" onclick="stop()">Stop time</button>
+      <button class="bnt refresh" onclick="history.go(0)" VALUE="Refresh">Restart</button>
+
+      <hr>
+
+	    <div style="width 24px; height24px" id="box"></div>
+
+	  <script type="text/javascript" src="reaction.js"></script>
+
+  </body>
+
+</html>
